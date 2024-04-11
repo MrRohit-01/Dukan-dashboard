@@ -6,12 +6,12 @@ import {AmountPendingCard } from './components/amountPendingCard'
 import {AmountProcessingCard } from './components/amountProcessing'
 import { NextPayout } from './components/nextPayout'
 import { TopBar } from './components/topBar'
+import { SideBar } from './components/sideBar'
 
 function App() {
 
   return (
-   <TopBar></TopBar>
+    <SideBar></SideBar>
   )
 }
-
 export default App
