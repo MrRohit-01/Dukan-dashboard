@@ -7,11 +7,15 @@ import {AmountProcessingCard } from './components/amountProcessing'
 import { NextPayout } from './components/nextPayout'
 import { TopBar } from './components/topBar'
 import { SideBar } from './components/sideBar'
+import { Overview } from './components/overview'
+import { Transactions } from './components/transactions'
+import { Search } from './components/search'
+import { TransactionDetails } from './components/transactionDetails'
 
 function App() {
 
   return (
-    <SideBar></SideBar>
+<TransactionDetails></TransactionDetails>
   )
 }
 export default App

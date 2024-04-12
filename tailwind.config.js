@@ -13,6 +13,10 @@ export default {
         },
         gray:{
           222:"#f2f2f2"
+        },
+        white:{
+          444:"#fafafa",
+          100:"#ffffff"
         }
 
       }
